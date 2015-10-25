@@ -10,7 +10,7 @@ DB_USERNAME=root
 DB_PASSWORD=
 
 4. Migrate your database: php artisan migrate
-5. Seed your database: php artisan db:seed
+5. Seed your database: php artisan db:seed --class=ListTableSeeder
 6. Make php artisan key:generate
 7. Make sure that "public" directory is the root directory
 8. chmod -R 0777 bootstrap/cache
